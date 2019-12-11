@@ -1,0 +1,39 @@
+{
+    "name": "paxha/laravel-has-many-through-many-to-many-relation",
+    "description": "This Laravel Eloquent extension provides has many through many to many relationship.",
+    "type": "laravel",
+    "license": "MIT",
+    "keywords": [
+        "laravel library",
+        "laravel has many through many to many relationship",
+        "many through many to many"
+    ],
+    "authors": [
+        {
+            "name": "Hassan Raza Pasha",
+            "email": "e.hassanrazapasha@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.4",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HasManyThroughManyToMany\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HasManyThroughManyToMany\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
