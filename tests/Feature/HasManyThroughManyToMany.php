@@ -4,9 +4,9 @@ namespace HasManyThroughManyToMany\Tests\Feature;
 
 use HasManyThroughManyToMany\Tests\TestCase;
 
-class HasManyThroughManyToMany extends TestCase
+class HasManyThroughManyToManyTest extends TestCase
 {
-    public function testExample()
+    public function testHasManyThroughManyToMany()
     {
         $this->assertTrue(true);
     }
